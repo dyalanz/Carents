@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0a109619bc084fc998afb252f22d4e95" Name="Diagram1" ZoomLevel="85" >
+        <EntityTypeShape EntityType="CarentsModel1.Car" Width="1.5" PointX="17" PointY="1.75" />
+        <EntityTypeShape EntityType="CarentsModel1.Order" Width="1.5" PointX="16.75" PointY="6.5" />
+        <EntityTypeShape EntityType="CarentsModel1.Roles" Width="1.5" PointX="6.375" PointY="3.25" />
+        <EntityTypeShape EntityType="CarentsModel1.Permisson" Width="1.5" PointX="9.5" PointY="2.25" />
+        <EntityTypeShape EntityType="CarentsModel1.User" Width="1.5" PointX="3.75" PointY="6.125" />
+        <EntityTypeShape EntityType="CarentsModel1.User_roles" Width="1.5" PointX="3.875" PointY="3.125" />
+        <EntityTypeShape EntityType="CarentsModel1.permi_car" Width="1.5" PointX="12.375" PointY="2.875" />
+        <EntityTypeShape EntityType="CarentsModel1.permi_order" Width="1.5" PointX="12.375" PointY="5.75" />
+        <AssociationConnector Association="CarentsModel1.CarOrder" />
+        <AssociationConnector Association="CarentsModel1.Carpermi_car" />
+        <AssociationConnector Association="CarentsModel1.RolesUser_roles" />
+        <AssociationConnector Association="CarentsModel1.RolesPermisson" />
+        <AssociationConnector Association="CarentsModel1.UserUser_roles" />
+        <AssociationConnector Association="CarentsModel1.Permissonpermi_car" />
+        <AssociationConnector Association="CarentsModel1.Permissonpermi_order" />
+        <AssociationConnector Association="CarentsModel1.Orderpermi_order" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
